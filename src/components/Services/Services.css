@@ -28,8 +28,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
-    padding: 60px;
+    gap: 15px;
+    padding: 25px;
+    height: 340px;
+    width: 320px;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
@@ -97,6 +99,8 @@
 
     .services-format {
         gap: 10px;
+        height: 70%;
+        width: 70%;
         padding: 32px;
     }
 
@@ -116,6 +120,7 @@
 
     .services-container {
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 10px;
+        padding: 25px;
     }
 }

@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 40px 100px;
+    width: 90%;
 }
 
 #logo {
@@ -20,16 +21,16 @@
 }
 
 .nav-connect {
-    padding: 20px 40px;
+    padding: 18px 30px;
     border-radius: 50px;
     background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
     font-size: 20px;
     cursor: pointer;
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
 }
 
 .nav-connect:hover {
-    transform: scale(1.05);
+    transform: scale(1.08);
 }
 
 .nav-menu li {

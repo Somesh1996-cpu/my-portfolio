@@ -20,10 +20,10 @@ const About = () => {
                             <p>My passion for frontend development is not only reflected in my extensive experience but also in the enthusiasm and dedication I bring to each project.</p>
                         </div>
                         <div className="about-skills">
-                            <div className="about-skill"><p>HTML & CSS</p> <hr style={{ width: '50%' }} /></div>
-                            <div className="about-skill"><p>JavaScript</p> <hr style={{ width: '70%' }} /></div>
-                            <div className="about-skill"><p>ReactJS</p> <hr style={{ width: '65%' }} /></div>
-                            <div className="about-skill"><p>Git & GitHub</p> <hr style={{ width: '60%' }} /></div>
+                            <div className="about-skill"><p>HTML & CSS</p> <hr style={{ width: '85%' }} /></div>
+                            <div className="about-skill"><p>JavaScript</p> <hr style={{ width: '65%' }} /></div>
+                            <div className="about-skill"><p>ReactJS</p> <hr style={{ width: '70%' }} /></div>
+                            <div className="about-skill"><p>Git & GitHub</p> <hr style={{ width: '65%' }} /></div>
                         </div>
                     </div>
                 </div>

@@ -162,11 +162,12 @@
     }
 
     .about-achievements {
-        justify-content: space-between;
+        justify-content: space-evenly;
+        gap: 30px;
     }
 
     .about-achievement {
-        gap: 10px;
+        gap: 15px;
     }
 
     .about-achievement h1 {
