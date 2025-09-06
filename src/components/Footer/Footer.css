@@ -18,8 +18,11 @@
 }
 
 .footer-top-left p {
-    font-size: 20px;
-    max-width: 400px;
+    font-size: 18px;
+    max-width: 660px;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding: 10px;
 }
 
 .footer-top-right {
@@ -31,7 +34,7 @@
 .footer-email-input {
     display: flex;
     gap: 15px;
-    padding: 20px 30px;
+    padding: 15px 30px;
     border-radius: 50px;
     background: #32323b;
     padding-right: 80px;
@@ -43,13 +46,13 @@
     background: transparent;
     color: #ded3d3;
     font-family: Outfit;
-    font-size: 20px;
+    font-size: 18px;
     transition: 0.3s;
 }
 
 .footer-subscribe {
-    font-size: 22px;
-    padding: 22px 50px;
+    font-size: 18px;
+    padding: 18px 34px;
     border-radius: 50px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415ff 106.28%);
     cursor: pointer;
@@ -64,7 +67,7 @@
 
 .footer-bottom-right {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     margin-bottom: 50px;
 }
 
@@ -72,14 +75,28 @@
     cursor: pointer;
 }
 
-.footer-email-input:hover {
-    outline: 2px solid white;
+.footer-subscribe {
+    height: 18px;
+    font-size: 18px;
+
 }
 
 .footer-subscribe:hover {
     transform: scale(1.10);
     transition: 0.4s;
 }
+
+
+.footer-email-input {
+    height: 18px;
+}
+
+.footer-email-input:hover {
+    outline: 2px solid white;
+}
+
+
+
 
 @media(max-width:768px) {
     .footer {
@@ -104,10 +121,19 @@
     }
 
     .footer-subscribe {
-        height: 25px;
+        height: 20px;
         justify-content: center;
         width: auto;
         text-align: center;
+    }
+
+    .footer-bottom-right {
+        gap: 15px;
+    }
+
+    .footer-bottom-right p {
+        font-size: 18px;
+
     }
 
 }

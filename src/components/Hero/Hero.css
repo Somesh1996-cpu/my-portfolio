@@ -46,9 +46,10 @@
 }
 
 .hero-connect {
-    padding: 25px;
+    padding: 15px;
     border-radius: 50px;
     border: 2px solid white;
+    font-size: 18px;
     background: linear-gradient(264deg, #df8908 -5.09%, #b415FF 106.28%);
     transition: 0.4s;
 }
@@ -60,10 +61,14 @@
 }
 
 .hero-resume {
-    padding: 25px;
+    display: inline-block;
+    padding: 15px;
+    font-size: 18px;
     border-radius: 50px;
+    text-decoration: none;
+    color: white;
     text-align: center;
-    width: 180px;
+    width: 130px;
     border: 2px solid #fff;
     cursor: pointer;
     transition: 0.4s;
@@ -71,8 +76,9 @@
 
 .hero-resume:hover {
     border-color: #b415FF;
-    transform: scale(1.10);
-    transition: 0.4s ease-in-out;
+    color: white;
+    text-decoration: underline;
+    transform: scale(1.05);
 }
 
 @media(max-width:768px) {
