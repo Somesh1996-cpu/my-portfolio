@@ -33,7 +33,7 @@
     margin: 10px;
     height: 300px;
     width: 270px;
-    background-color: #110754;
+    background-color: #1d1d21;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
@@ -110,7 +110,7 @@
         padding: 12px;
         margin: 15px;
         margin: 15px;
-        background-color: #0e054a;
+        background-color: #1d1d21;
     }
 
     .services-format h2 {
