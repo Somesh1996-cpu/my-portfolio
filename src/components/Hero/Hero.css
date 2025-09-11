@@ -18,7 +18,7 @@
 .hero h1 {
     text-align: center;
     width: 70%;
-    font-size: 90x;
+    font-size: 40px;
     font-weight: 600;
 }
 
@@ -81,7 +81,7 @@
     transform: scale(1.05);
 }
 
-@media(max-width:768px) {
+@media(max-width:1050px) {
     .hero img {
         margin-top: 120px;
         width: 260px;
@@ -90,7 +90,7 @@
     .hero h1 {
         margin-top: 50px;
         width: 90%;
-        font-size: 50px;
+        font-size: 30px;
     }
 
     .hero p {

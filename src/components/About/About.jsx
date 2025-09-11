@@ -1,31 +1,13 @@
 import "./About.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import profile_img from "../../assets/my_photo.jpg";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaReact,
-  FaNodeJs,
-  FaGitAlt,
-} from "react-icons/fa";
-import {
-  SiTypescript,
-  SiRedux,
-  SiTailwindcss,
-  SiNextdotjs,
-  SiExpress,
-  SiMongodb,
-  SiPostman,
-  SiGithub,
-} from "react-icons/si";
 
 const About = () => {
   return (
     <>
       <div id="about" className="about">
         <div className="about-title">
-          <h1>About me</h1>
+          <h1>About Me</h1>
           <img src={theme_pattern} alt="theme_pattern" />
         </div>
         <div className="about-section">
