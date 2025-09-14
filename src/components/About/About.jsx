@@ -67,7 +67,7 @@ const About = () => {
                 <p>ReactJS</p> <hr style={{ width: "80%" }} />
               </div>
               <div className="about-skill">
-                <p>Redux-ToolKit</p> <hr style={{ width: "70%" }} />
+                <p>Redux-ToolKit</p> <hr style={{ width: "60%" }} />
               </div>
               <div className="about-skill">
                 <p>Tailwind CSS</p> <hr style={{ width: "70%" }} />

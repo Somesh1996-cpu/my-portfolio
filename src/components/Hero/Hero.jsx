@@ -9,7 +9,7 @@ const Hero = () => {
         <img id="profile_pic" src={profile_img} alt="profile" />
         <h1>
           <span>I'm Somashekar,</span> full-stack-developer based in Bangalore,
-          Karnataka.
+          Karnataka
         </h1>
         <p>
           A self-taught Full Stack Developer specializing in the MERN stack.
