@@ -28,7 +28,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 40px;
-    gap: 35px;
+    gap: 40px;
 }
 
 .mywork-container img {
@@ -85,14 +85,16 @@
     }
 
     .mywork-container {
-        grid-template-columns: 1fr 1fr;
-        gap: 35px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 40px;
+
     }
 
     .mywork-container img {
-        width: 240px;
-        height: 180px;
-
+        width: 100%;
+        height: 310px;
+        max-width: 100%;
     }
 
     .mywork-showmore {
