@@ -13,6 +13,16 @@ const About = () => {
         <div className="about-section">
           <div className="about-left">
             <img id="profile_img" src={profile_img} alt="profile_img" />
+            <p>
+              I started my career in the finance domain, where I gained strong
+              analytical and problem-solving skills. Over time, I discovered my
+              true passion for technology and transitioned into the IT field,
+              focusing on web development. To pursue this passion, I learned
+              front-end, back-end, and database technologies, enabling me to
+              build complete and scalable web applications. With a blend of
+              business acumen and technical expertise, I aim to create solutions
+              that are not only functional but also impactful.
+            </p>
           </div>
           <div className="about-right">
             <div className="about-para">
@@ -48,7 +58,10 @@ const About = () => {
                 <p>JavaScript</p> <hr style={{ width: "80%" }} />
               </div>
               <div className="about-skill">
-                <p>TypeScript</p> <hr style={{ width: "45%" }} />
+                <p>TypeScript</p> <hr style={{ width: "55%" }} />
+              </div>
+              <div className="about-skill">
+                <p>Python</p> <hr style={{ width: "75%" }} />
               </div>
               <div className="about-skill">
                 <p>ReactJS</p> <hr style={{ width: "80%" }} />
@@ -67,6 +80,9 @@ const About = () => {
               </div>
               <div className="about-skill">
                 <p>Express.js</p> <hr style={{ width: "70%" }} />
+              </div>
+              <div className="about-skill">
+                <p>Django</p> <hr style={{ width: "60%" }} />
               </div>
               <div className="about-skill">
                 <p>Mongo-DB</p> <hr style={{ width: "80%" }} />

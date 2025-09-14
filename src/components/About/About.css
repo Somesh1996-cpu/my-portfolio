@@ -35,6 +35,11 @@
     gap: 80px;
 }
 
+.about-left p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
 .about-right {
     display: flex;
     flex-direction: column;

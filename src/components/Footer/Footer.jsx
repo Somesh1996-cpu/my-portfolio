@@ -9,16 +9,7 @@ const Footer = () => {
         <div className="footer-top">
           <div className="footer-top-left">
             <img id="footer-logo" src={footer_logo} alt="footer-logo" />
-            <p>
-              I started my career in the finance domain, where I gained strong
-              analytical and problem-solving skills. Over time, I discovered my
-              true passion for technology and transitioned into the IT field,
-              focusing on web development. To pursue this passion, I learned
-              front-end, back-end, and database technologies, enabling me to
-              build complete and scalable web applications. With a blend of
-              business acumen and technical expertise, I aim to create solutions
-              that are not only functional but also impactful.
-            </p>
+            
           </div>
           <div className="footer-top-right">
             <div className="footer-email-input">
